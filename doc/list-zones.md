@@ -1,5 +1,5 @@
 # List of zones of Kimsufi's servers
-List extracted [from the API](https://api.ovh.com/console/#/dedicated/server/availabilities#GET) and [the list of OVH datacenters](https://www.ovh.com/world/about-us/datacenters.xml) ([let us know](https://git.pofilo.fr/pofilo/kimsufi/issues) if you are aware of an API or an easier way).
+List extracted [from the API](https://api.ovh.com/console/#/dedicated/server/availabilities#GET) and [the list of OVH datacenters](https://www.ovh.com/world/about-us/datacenters.xml) 
 
 | English Name | French Name |Reference  |
 |--------------|-------------|-----------|
@@ -16,9 +16,6 @@ List extracted [from the API](https://api.ovh.com/console/#/dedicated/server/ava
 | *Vint Hill ?*|*Vint Hill ?*| vin       |
 | Warsaw       | Varsovie    | waw       |
 
-# Not up-to-date?
-
-If a zone is wrong, not up-to-date, a new zone is out or anything else, feel free to [open an issue](https://git.pofilo.fr/pofilo/kimsufi/issues) or  [fix it with a PR](https://git.pofilo.fr/pofilo/kimsufi/pulls)!
 
 # Disclaimer
 **Be careful with this list! It may not be up-to-date!** For example they can add or remove zones.

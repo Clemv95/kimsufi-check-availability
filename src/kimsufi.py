@@ -76,7 +76,7 @@ def main():
                 struct = json.loads(response.body)
                 for item in struct:
                     zones = [z['datacenter'] for z in item['datacenters'] if z['availability'] not in ('unavailable', 'unknown')]
-                    if set(zones).intersection(zones_desired) and item['hardware'] in id_servers:
+                    if set(zones).intersection(zones_desired) and item['planCode'] in id_servers:
                         server_found = True
                         if not last_status:
                             logger.info('Found available server, sending notifications...')
