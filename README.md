@@ -6,7 +6,7 @@ Sends an alert when your Kimsufi server is available.
 
 ## Requirements
 
-+ The script uses **python 3.9**
++ The script uses **python 3.11**
 
 ## Purpose
 
